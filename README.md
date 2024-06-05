@@ -1,7 +1,7 @@
 
 # Multi-Stage Lithium-Ion Battery Aging Dataset Analysis
 
-This repository contains code and resources for analyzing the aging dataset of lithium-ion batteries, as detailed in the [Nature Scientific Data Descriptor](link_to_publication). The primary objectives of this project include data loading, filtering and correcting outliers, extracting essential features, and creating visual representations of the data.
+This repository contains code and resources for analyzing the aging dataset of lithium-ion batteries, as detailed in the Paper [Multi-Stage Lithium-Ion Battery Aging Dataset](link_to_publication). The primary objectives of this project include data loading, filtering and correcting outliers, extracting essential features, and creating visual representations of the data.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -19,22 +19,18 @@ Lithium-ion batteries are critical components in many modern devices, from smart
 - Create figures to visualize the data and extracted features.
 
 ## Data
-The dataset used in this analysis can be found [here](link_to_dataset). It consists of multiple files capturing various aspects of battery aging.
+The dataset used in this analysis can be found [here](https://doi.org/10.6084/m9.figshare.25975315). It consists of multiple files capturing various aspects of battery aging.
 
 ### Directory Structure
-- `data/raw/`: Contains the raw dataset files.
-- `data/processed/`: Contains processed data files ready for analysis.
+- `data/`: Contains the files that are created during analyses, e.g. table of capacities.
 
 ## Code Structure
 - `notebooks/`: Jupyter notebooks for interactive analysis.
-  - `data_loading.ipynb`: Notebook for loading and exploring the dataset.
-  - `outlier_correction.ipynb`: Notebook for filtering and correcting outliers.
-  - `feature_extraction.ipynb`: Notebook for extracting features from the dataset.
-  - `visualization.ipynb`: Notebook for creating visualizations.
+  - `basic_analyses.ipynb`: Notebook for loading and exploring the dataset.
 
 - `src/`: Python scripts for modular code execution.
-  - `data_loading.py`: Script for loading data files.
-  - `outlier_correction.py`: Script for filtering and correcting outliers.
+  - `data_import.py`: Script for loading data files.
+  - `outlier_handling.py`: Script for filtering and correcting outliers.
   - `feature_extraction.py`: Script for feature extraction.
   - `visualization.py`: Script for creating figures.
 
