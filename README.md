@@ -1,7 +1,7 @@
 
 # Multi-Stage Lithium-Ion Battery Aging Dataset Analysis
 
-This repository contains code and resources for analyzing the aging dataset of lithium-ion batteries, as detailed in the [Springer Nature publication](link_to_publication). The primary objectives of this project include data loading, filtering and correcting outliers, extracting essential features, and creating visual representations of the data.
+This repository contains code and resources for analyzing the aging dataset of lithium-ion batteries, as detailed in the [Nature Scientific Data Descriptor](link_to_publication). The primary objectives of this project include data loading, filtering and correcting outliers, extracting essential features, and creating visual representations of the data.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
