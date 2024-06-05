@@ -43,8 +43,8 @@ The dataset used in this analysis can be found [here](link_to_dataset). It consi
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/lithium-ion-battery-aging-dataset-analysis.git
-   cd lithium-ion-battery-aging-dataset-analysis
+   git clone https://github.com/fst2112/multi-stage-lithium-ion-battery-aging-dataset-analysis.git
+   cd multi-stage-lithium-ion-battery-aging-dataset-analysis
    ```
 
 2. Install the required dependencies:
