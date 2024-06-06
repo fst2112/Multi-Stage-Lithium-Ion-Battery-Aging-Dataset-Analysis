@@ -20,8 +20,6 @@ Lithium-ion batteries are critical components in many modern devices, from smart
 ## Data
 The dataset used in this analysis can be found [here](https://doi.org/10.6084/m9.figshare.25975315). It consists of multiple files capturing various aspects of battery aging.
 
-### Directory Structure
-- `data/`: Contains the files that are created during analyses, e.g. table of capacities.
 
 ## Code Structure
 - `notebooks/`: Jupyter notebooks for interactive analysis.
