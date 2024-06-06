@@ -21,6 +21,7 @@ def import_datafile(file: Path) -> pd.DataFrame:
         df.run_time = timestamp_to_seconds(df.run_time)
 
     # reset time to start with 0
+    first_run_time = df.run_time[0]
     df.run_time = df.run_time - first_run_time
 
     return df

@@ -14,7 +14,6 @@ This repository contains code and resources for analyzing the aging dataset of l
 ## Project Overview
 Lithium-ion batteries are critical components in many modern devices, from smartphones to electric vehicles. Understanding their aging process is vital for improving performance and longevity. This repository provides tools to:
 - Load and preprocess battery aging data.
-- Filter and correct outliers in the dataset.
 - Extract key features such as capacity, DCIR (Direct Current Internal Resistance), and OCV (Open Circuit Voltage).
 - Create figures to visualize the data and extracted features.
 
@@ -30,11 +29,8 @@ The dataset used in this analysis can be found [here](https://doi.org/10.6084/m9
 
 - `src/`: Python scripts for modular code execution.
   - `data_import.py`: Script for loading data files.
-  - `outlier_handling.py`: Script for filtering and correcting outliers.
   - `feature_extraction.py`: Script for feature extraction.
-  - `visualization.py`: Script for creating figures.
 
-- `figures/`: Directory to save generated figures.
 
 ## Usage
 1. Clone the repository:
