@@ -1,7 +1,7 @@
 
 # Multi-Stage Lithium-Ion Battery Aging Dataset Analysis
 
-This repository contains code and resources for analyzing the aging dataset of lithium-ion batteries, as detailed in the Paper [Multi-Stage Lithium-Ion Battery Aging Dataset](link_to_publication). The primary objectives of this project include data loading, filtering and correcting outliers, extracting essential features, and creating visual representations of the data.
+This repository contains code and resources for analyzing the aging dataset of lithium-ion batteries, as detailed in the Paper [Multi-Stage Lithium-Ion Battery Aging Dataset](https://doi.org/10.1038/s41597-024-03859-z). The primary objectives of this project include data loading, filtering and correcting outliers, extracting essential features, and creating visual representations of the data.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
